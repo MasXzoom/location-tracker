@@ -1,0 +1,42 @@
+/* LocationMap.css */
+.location-map {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  height: 500px; /* Default height */
+}
+
+.location-map-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.location-map-popup {
+  padding: 0.75rem;
+}
+
+.location-map-popup p {
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.location-map-popup a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.location-map-popup a:hover {
+  text-decoration: underline;
+  color: #3730a3;
+}
+  
+/* Responsif untuk mobile */
+@media (max-width: 640px) {
+  .location-map {
+    height: 350px;
+  }
+}
